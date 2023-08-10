@@ -1,0 +1,113 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #FAFAFA;
+  
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 1.1;
+  color: white;
+}
+
+.liste{
+  background-color: white;
+  color:  black;
+  text-align: left;
+  margin-top: 30px;
+  padding: 15px;
+  box-shadow: 0px 35px 50px -15px rgba(194, 195, 214, 0.50);
+}
+
+.test{
+  margin: 10px;
+}
+
+.tout{
+ 
+}
+
+.todo{
+  background-color: white;
+  color:  black;
+  text-align: left;
+  
+
+}
+/*form{
+  box-shadow: 0px 35px 50px -15px rgba(194, 195, 214, 0.94);
+}*/
+.app-todo-container{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.todo-container-form{
+  width: min(540px,100%);
+ 
+  margin-top: 7rem;
+}
+.image{
+  z-index: -1;
+  position: absolute;
+}
+.image img{
+    width: 100%;
+  /* position: absolute; */
+}
+.newTodo{
+  width: 100%;
+  max-width: 100%;
+  background-color: white;
+  height: 30px;
+  padding-left: 5%;
+  border: none;
+  outline: none;
+  color: black;
+ 
+
+}
+
+header{
+  color: black;
+  margin-bottom: 40px;
+  letter-spacing: 6px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 40px
+}
+
+.all{
+  display: flex;
+  justify-content: space-between;
+}
+
+.three{
+  width: 140px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.trait{
+  text-decoration: line-through;
+}
+
+.fleche{
+  cursor: pointer;
+}
